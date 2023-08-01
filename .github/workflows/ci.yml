@@ -40,8 +40,6 @@ jobs:
       - name: Scan your dependencies with the listen.dev CLI
         uses: listendev/action@v0.2.2
         with:
-          lstn_flags: "--endpoint=https://npm-staging.listen.dev"
-          reporter: "gh-pull-comment"
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
           
