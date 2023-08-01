@@ -41,5 +41,4 @@ jobs:
         uses: listendev/action@v0.2.2
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-
           
