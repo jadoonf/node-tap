@@ -38,4 +38,6 @@ jobs:
           npm test --color=always -- -c -t0
 
       - name: Scan your dependencies with the listen.dev CLI
-        uses: listendev/action@v0.2.0
+        uses: listendev/action@v0.2.2
+        with:
+          lstn_flags: https://npm-staging.listen.dev
