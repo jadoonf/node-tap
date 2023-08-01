@@ -42,5 +42,6 @@ jobs:
         with:
           lstn_flags: "--endpoint=https://npm-staging.listen.dev"
           reporter: "gh-pull-comment"
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
           
